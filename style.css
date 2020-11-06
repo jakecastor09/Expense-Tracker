@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+#expense-tracker {
+  height: 70vh;
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 5rem auto;
+  overflow: hidden;
+}
+#expense-tracker .heading-title {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.8);
+}
+#expense-tracker .heading-content {
+  text-align: center;
+  font-size: 3rem;
+  color: green;
+  margin-bottom: 1.5rem;
+}
+#expense-tracker .expense-input {
+  font-size: 2.2rem;
+}
+.expense-input .name {
+  width: 90%;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.name,
+.date,
+.amount {
+  border: 1px solid #dcdcdc;
+}
+.expense-input input::placeholder {
+  color: #808080;
+}
+.expense-input input:focus {
+  outline: 1px solid #c0c0c0;
+}
+.expense-input .date {
+  width: 41%;
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+}
+.expense-input .amount {
+  width: 41%;
+  padding: 0.8rem;
+}
+.expense-input {
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: green;
+  border: none;
+  margin-top: 3rem;
+}
+
+.table {
+  font-size: 0.8rem;
+  margin-top: 5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #c0c0c0;
+
+  text-align: left;
+}
+th {
+  font-size: 1.8rem;
+  padding: 1.3rem;
+}
+td {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.btn-red {
+  margin: 0 auto;
+  background-color: red;
+  display: block;
+}
